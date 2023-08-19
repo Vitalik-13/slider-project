@@ -1189,7 +1189,7 @@
   .selected-form {
     flex-direction: column;
     gap: 20px 0;
-    margin: 30px 40px 40px 0px;
+    margin: 30px 40px 30px 0px;
   }
   .buttom-select {
     padding: 0;
