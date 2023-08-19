@@ -1021,6 +1021,9 @@
     align-items: center;
     gap: 50px 0;
   }
+  .img-hover:hover {
+    margin-top: 0;
+  }
   .planners-block {
     display: block;
   }
@@ -1104,7 +1107,7 @@
 @media (max-width: 668px) {
   .two-foto-in-slider {
     width: 90%;
-    max-height: 517px;
+    height: 400px;
   }
   .paragraph-in-slider {
     left: 9%;
@@ -1183,12 +1186,13 @@
   .selected-form {
     flex-direction: column;
     gap: 25px 0;
-    margin-right: 40px;
+    margin: 40px 40px 40px 0px;
   }
   .buttom-select {
     padding: 0;
     margin: 0 auto;
     width: 100%;
+    text-align: center;
   }
   .buttom-block-second {
     width: 100%;
@@ -1200,5 +1204,10 @@
   }
   .rating {
     gap: 0 2%;
+  }
+}
+@media (max-width: 350px) {
+  .rating {
+    gap: 0%;
   }
 }
