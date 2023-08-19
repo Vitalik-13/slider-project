@@ -1184,7 +1184,7 @@
 @media (max-width: 540px) {
   .selected-form {
     flex-direction: column;
-    gap: 25px 0;
+    gap: 20px 0;
     margin: 30px 40px 40px 0px;
   }
   .buttom-select {
