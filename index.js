@@ -80,8 +80,8 @@ $(document).ready(function () {
 
   function initializeSliderThreeslider(slidesToShow) {
     $(".three-pack-slider").slick({
-      // autoplay: true,
-      // autoplaySpeed: 1000,
+      autoplay: true,
+      autoplaySpeed: 1000,
       slidesToShow: slidesToShow,
       slidesToScroll: 1,
     });
@@ -95,8 +95,8 @@ $(document).ready(function () {
         slickInitialized = false;
       }
       $(".three-pack-slider").slick({
-        // autoplay: true,
-        // autoplaySpeed: 1000,
+        autoplay: true,
+        autoplaySpeed: 1000,
         slidesToShow: 2,
         slidesToScroll: 2,
       });
