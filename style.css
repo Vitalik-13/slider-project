@@ -970,6 +970,9 @@
   .before-after {
     margin-left: 15px;
   }
+  .body {
+    overflow-x: hidden;
+  }
 }
 @media (max-width: 1130px) {
   .two-pack .slick-arrow {
@@ -1186,5 +1189,8 @@
   }
   .rating {
     gap: 0 2%;
+  }
+  .body {
+    overflow-x: hidden;
   }
 }
