@@ -96,27 +96,48 @@
 }
 .link::before {
   position: absolute;
+  z-index: -1;
+  content: "";
   top: 25px;
   left: 0;
   width: 0;
-  content: "";
-  border: 2px solid #ff7557;
+  height: 0;
   transition: all 0.5s ease;
-  z-index: -1;
+  border-radius: 3px;
+  background-color: #ff7557;
 }
 .link:hover::before {
   width: 100%;
   z-index: 1;
+  height: 4px;
 }
-.link:hover {
-  color: #ff7757;
-}
+
 .header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
 }
+.fixed {
+  position: fixed;
+  left: 3%;
+  right: 3%;
+  top: 2%;
+  z-index: 20;
+  padding: 20px 15px;
+  background-image: linear-gradient(
+    90deg,
+    hsl(11deg 100% 67%) 0%,
+    hsl(356deg 25% 52%) 50%,
+    hsl(211deg 45% 32%) 100%
+  );
+  border-radius: 10px;
+  transition: all 0.8s ease;
+  box-shadow: 7px 5px 9px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 7px 5px 9px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 5px 9px 0px rgba(0, 0, 0, 0.75);
+}
+
 .link-login {
   cursor: pointer;
   padding: 20px 32px;
@@ -1042,7 +1063,7 @@
     width: 100%;
   }
 }
-@media (max-width: 940px) {
+@media (max-width: 1000px) {
   .menu {
     display: none;
   }
