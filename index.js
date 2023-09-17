@@ -169,12 +169,12 @@ $(document).ready(function () {
   updateSliderThreesliders();
 });
 //===================================================================
-let header = document.querySelector(".header");
-document.addEventListener("scroll", () => {
-  if (scrollY > 100) {
-    header.classList.add("fixed");
-  } else {
-    header.classList.remove("fixed");
-  }
-});
+// let header = document.querySelector(".header");
+// document.addEventListener("scroll", () => {
+//   if (scrollY > 100) {
+//     header.classList.add("fixed");
+//   } else {
+//     header.classList.remove("fixed");
+//   }
+// });
 AOS.init();
