@@ -177,4 +177,4 @@ document.addEventListener("scroll", () => {
     header.classList.remove("fixed");
   }
 });
-AOS.init();
+// AOS.init();
