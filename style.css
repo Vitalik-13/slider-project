@@ -1229,6 +1229,9 @@
   .rating {
     gap: 0 2%;
   }
+  .fixed {
+    display: none;
+  }
 }
 @media (max-width: 350px) {
   .rating {
