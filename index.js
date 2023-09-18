@@ -170,11 +170,17 @@ $(document).ready(function () {
 });
 //===================================================================
 let header = document.querySelector(".header");
+let prevScrollY = window.scrollY;
+
 document.addEventListener("scroll", () => {
-  if (scrollY > 100) {
+  const currentScrollY = window.scrollY;
+
+  if (currentScrollY > prevScrollY && currentScrollY > 200) {
     header.classList.add("fixed");
   } else {
     header.classList.remove("fixed");
   }
+
+  prevScrollY = currentScrollY;
 });
-// AOS.init();
+AOS.init();
