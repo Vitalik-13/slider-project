@@ -24,7 +24,7 @@
   </head>
   <body class="body">
     <section class="section-one">
-      <div class="slider">
+      <div class="slider" id="home">
         <div class="slider-item">
           <img src="images/Hero Section.png" alt="" class="foto-in-slider" />
         </div>
@@ -67,11 +67,11 @@
             </div>
             <nav>
               <ul class="menu">
-                <li><a href="" class="link">Home</a></li>
-                <li><a href="" class="link">Explore</a></li>
-                <li><a href="" class="link">Travel</a></li>
-                <li><a href="" class="link">Blog</a></li>
-                <li><a href="" class="link">Pricing</a></li>
+                <li><a href="#home" class="link">Home</a></li>
+                <li><a href="#explore" class="link">Explore</a></li>
+                <li><a href="#travel" class="link">Travel</a></li>
+                <li><a href="#blog" class="link">Blog</a></li>
+                <li><a href="#link" class="link">Pricing</a></li>
               </ul>
             </nav>
             <div class="login">
@@ -143,7 +143,7 @@
     <section class="section-two">
       <div class="main-conteiner">
         <div class="slider-title" data-aos="fade-up" data-aos-duration="2000">
-          <h3 class="two-title">Popular Destinations</h3>
+          <h3 class="two-title" >Popular Destinations</h3>
           <p class="two-title-paragpaph">Most popular destinations around the world, from historical places to natural wonders.</p>
         </div>
         <div class="two-pack" data-aos="fade-up" data-aos-duration="2000">
@@ -191,7 +191,7 @@
           </div>
           </div>
         <div class="slider-title second" data-aos="fade-up" data-aos-duration="2000">
-          <h3 class="two-title">Special Offer</h3>
+          <h3 class="two-title" id="explore">Special Offer</h3>
           <p class="two-title-paragpaph">Check out our special offer and discounts</p>
         </div>
         <div class="three-pack-slider" data-aos="fade-up" data-aos-duration="2000">
@@ -428,7 +428,7 @@
           </div>
         </div>
          <div class="slider-title" data-aos="fade-up" data-aos-duration="2000">
-          <h3 class="two-title" >Our Blog</h3>
+          <h3 class="two-title" id="blog">Our Blog</h3>
           <p class="two-title-paragpaph">An insight the incredible experience in the world</p>
         </div>
         <div class="blog-text-and-foto"  data-aos="fade-up" data-aos-duration="2000" >
@@ -442,7 +442,7 @@
         </div>
         <div class="planners-block" >
         <div class="slider-title third" data-aos="fade-up"  data-aos-duration="2000">
-          <h3 class="two-title">Trip Planners</h3>
+          <h3 class="two-title" id="travel">Trip Planners</h3>
           <p class="two-title-paragpaph planners">20 years from now you will be more disappointed by the things that you didn’t do. Stop regretting and start travelling, start throwing off the bowlines.</p>
           <button  class="button-in-three-slider before-after">View all trip plans</button>
         </div>
@@ -452,18 +452,18 @@
               <p class="paragraph-properties"> Guided Tour<span class="span-properties">€95/Day</span></p>
               <h4 class="titlt-properties">Paris City Tour</h4>
               <div class="star">
-                <div class="rating-two">
-                <input type="radio" id="star5" name="rate" value="5">
-                <label for="star5" title="text"></label>
-                <input type="radio" id="star4" name="rate" value="4">
-                <label for="star4" title="text"></label>
-                <input checked="" type="radio" id="star3" name="rate" value="3">
-                <label for="star3" title="text"></label>
-                <input type="radio" id="star2" name="rate" value="2">
-                <label for="star2" title="text"></label>
-                <input type="radio" id="star1" name="rate" value="1">
-                <label for="star1" title="text"></label>
-              </div><span class="span-properties">7 Days tour</span></div>
+                <div class="kard" id="kard1">
+                  <input value="5" name="rate1" id="star51" type="radio">
+                  <label title="text" for="star51"></label>
+                  <input value="4" name="rate1" id="star41" type="radio">
+                  <label title="text" for="star41"></label>
+                  <input value="3" name="rate1" id="star31" type="radio" >
+                  <label title="text" for="star31"></label>
+                  <input value="2" name="rate1" id="star21" type="radio">
+                  <label title="text" for="star21"></label>
+                  <input value="1" name="rate1" id="star11" type="radio">
+                  <label title="text" for="star11"></label>
+                </div><span class="span-properties">7 Days tour</span></div>
             </div>
           </div>
           <div class="img-hover"><img src="images/Image Container-6.png" alt="" class="foto-planners-two">
@@ -471,18 +471,18 @@
               <p class="paragraph-properties"> Guided Tour<span class="span-properties">€95/Day</span></p>
               <h4 class="titlt-properties">Paris City Tour</h4>
               <div class="star">
-                <div class="rating-two">
-                <input type="radio" id="star50" name="rate" value="50">
-                <label for="star50" title="text"></label>
-                <input type="radio" id="star40" name="rate" value="40">
-                <label for="star40" title="text"></label>
-                <input checked="" type="radio" id="star30" name="rate" value="30" >
-                <label for="star30" title="text"></label>
-                <input type="radio" id="star20" name="rate" value="20">
-                <label for="star2" title="text"></label>
-                <input type="radio" id="star10" name="rate" value="10">
-                <label for="star10" title="text"></label>
-              </div><span class="span-properties">7 Days tour</span></div>
+                <div class="kard" id="kard2">
+                  <input value="5" name="rate2" id="star52" type="radio">
+                  <label title="text" for="star52"></label>
+                  <input value="4" name="rate2" id="star42" type="radio">
+                  <label title="text" for="star42"></label>
+                  <input value="3" name="rate2" id="star32" type="radio">
+                  <label title="text" for="star32"></label>
+                  <input value="2" name="rate2" id="star22" type="radio">
+                  <label title="text" for="star22"></label>
+                  <input value="1" name="rate2" id="star12" type="radio">
+                  <label title="text" for="star12"></label>
+                </div><span class="span-properties">7 Days tour</span></div>
             </div>
           </div>
           <div class="img-hover"><img src="images/sity.jpg" alt="" class="foto-planners-two">
@@ -490,18 +490,18 @@
               <p class="paragraph-properties"> Guided Tour<span class="span-properties">€95/Day</span></p>
               <h4 class="titlt-properties">Paris City Tour</h4>
               <div class="star">
-                <div class="rating-two">
-                <input type="radio" id="star500" name="rate" value="500">
-                <label for="star500" title="text"></label>
-                <input type="radio" id="star400" name="rate" value="400">
-                <label for="star4" title="text"></label>
-                <input checked="" type="radio" id="star300" name="rate" value="300">
-                <label for="star3" title="text"></label>
-                <input type="radio" id="star200" name="rate" value="200">
-                <label for="star200" title="text"></label>
-                <input type="radio" id="star100" name="rate" value="100">
-                <label for="star1" title="text"></label>
-              </div>
+                <div class="kard" id="kard3">
+                  <input value="5" name="rate3" id="star53" type="radio">
+                  <label title="text" for="star53"></label>
+                  <input value="4" name="rate3" id="star43" type="radio">
+                  <label title="text" for="star43"></label>
+                  <input value="3" name="rate3" id="star33" type="radio" >
+                  <label title="text" for="star33"></label>
+                  <input value="2" name="rate3" id="star23" type="radio">
+                  <label title="text" for="star23"></label>
+                  <input value="1" name="rate3" id="star13" type="radio">
+                  <label title="text" for="star13"></label>
+                </div>
               <span class="span-properties">7 Days tour</span>
             </div>
             </div>
@@ -545,7 +545,7 @@
         </div>
         </div>
         <div class="slider-title" data-aos="fade-up"  data-aos-duration="2000">
-          <h3 class="two-title">Traveler's Experiences</h3>
+          <h3 class="two-title" id="link">Traveler's Experiences</h3>
           <p class="two-title-paragpaph">Here some awesome feedback from our travelers</p>
         </div>
        <div class="last-slider" data-aos="fade-up" data-aos-duration="2000">
